@@ -40,7 +40,7 @@
         android:id="@+id/b1"
         android:layout_width="74dp"
         android:layout_height="62dp"
-        android:background="@color/white"
+
         android:text="1"
         android:onClick="firstb1"
         android:textColor="@color/black"
@@ -55,22 +55,22 @@
         android:id="@+id/b3"
         android:layout_width="74dp"
         android:layout_height="62dp"
-        android:background="@color/white"
+
         android:onClick="firstb4"
         android:text="4"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.768"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71" />
+        app:layout_constraintVertical_bias="0.689" />
 
     <Button
         android:id="@+id/b2"
         android:layout_width="74dp"
         android:layout_height="62dp"
-        android:background="@color/white"
+
         android:text="2"
         android:onClick="secondb2"
         android:textColor="@color/black"
@@ -80,4 +80,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="75dp"
+        android:layout_height="62dp"
+
+        android:onClick="firstb3"
+        android:text="3"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.689" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Need help?"
+       android:onClick="help"
+        android:background="@color/black"
+       android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881" />
 </androidx.constraintlayout.widget.ConstraintLayout>

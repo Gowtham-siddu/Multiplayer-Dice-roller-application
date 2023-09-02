@@ -29,4 +29,16 @@ public class Start extends AppCompatActivity {
         Intent i4 = new Intent(this,fourth.class);
         startActivity(i4);
     }
+
+    public void firstb3(View view) {
+    Intent i3 = new Intent(this,third.class);
+    startActivity(i3);
+    }
+
+
+    public void help(View view) {
+        Intent i = new Intent(this, help.class);
+        startActivity(i);
+
+    }
 }
